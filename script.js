@@ -1,5 +1,5 @@
 function openform1() {
-  document.getElementById("expform").style.display = 'block';
+  document.getElementById("expform").style.display = block;
 }
 function openform2() {
   document.getElementById("eduform").style.display = "block";
