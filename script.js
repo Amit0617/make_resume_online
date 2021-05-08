@@ -45,7 +45,7 @@ function add2() {
   document.body.appendChild(o);
 }
 function add3() {
-  var s = document.createElement("p");
+  var s = document.createElement("li");
   s.innerHTMl = document.getElementById("S").value;
   document.body.appendChild(s);
 }
