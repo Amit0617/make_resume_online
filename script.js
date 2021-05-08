@@ -1,25 +1,25 @@
-function openform1() {
+function openForm1() {
   document.getElementById("expform").style.display = "block";
 }
-function openform2() {
+function openForm2() {
   document.getElementById("eduform").style.display = "block";
 }
-function openform3() {
+function openForm3() {
   document.getElementById("skillform").style.display = "block";
 }
-function openform4() {
+function openForm4() {
   document.getElementById("cform").style.display = "block";
 }
-function closeform1() {
+function closeForm1() {
   document.getElementById("expform").style.display = "none";
 }
-function closeform2() {
+function closeForm2() {
   document.getElementById("eduform").style.display = "none";
 }
-function closeform3() {
+function closeForm3() {
   document.getElementById("skillform").style.display = "none";
 }
-function closeform4() {
+function closeForm4() {
   document.getElementById("cform").style.display = "none";
 }
 function add1() {
