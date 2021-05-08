@@ -24,7 +24,7 @@ function closeform4() {
 }
 function add1() {
   var wy = document.createElement("p");
-  var on = document.createElement("p");
+  var on = document.createElement("strong");
   var e = document.createElement("p");
   wy.innerHTMl = document.getElementById("WY").value;
   on.innerHTML = document.getElementById("ON").value;
@@ -35,7 +35,7 @@ function add1() {
 }
 function add2() {
   var y = document.createElement("p");
-  var c = document.createElement("p");
+  var c = document.createElement("strong");
   var o = document.createElement("p");
   y.innerHTMl = document.getElementById("Y").value;
   c.innerHTML = document.getElementById("C").value;
