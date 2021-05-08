@@ -1,7 +1,5 @@
 aside {
-  padding : auto 5px auto auto;
-  color : red;
-  background-color : blue;
+  float : right;
 }
 
 form {
