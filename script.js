@@ -50,7 +50,7 @@ function add3() {
   document.body.appendChild(s);
 }
 function add4() {
-  var con = document.createElement("p");
+  var con = document.createElement("a");
   con.innerHTMl = document.getElementById("cont").value;
   document.body.appendChild(con);
 }
