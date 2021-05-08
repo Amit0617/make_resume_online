@@ -1,3 +1,8 @@
+@import "templatecolours.css";
+aside {
+  margin-right : 0px;
+}
+
 form {
   height : 150px;
   max-width : 100px;
