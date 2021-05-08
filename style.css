@@ -2,6 +2,8 @@
 aside {
   margin-right : 0px;
   padding-right : 5px;
+  color : red;
+  background-color : blue;
 }
 
 form {
