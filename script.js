@@ -28,7 +28,7 @@ function add1() {
   var e = document.createElement("p");
   wy.innerHTMl = document.getElementById("WY").value;
   on.innerHTML = document.getElementById("ON").value;
-  e.innerHTML = document.getElementById("e").value;
+  e.innerHTML = document.getElementById("E").value;
   document.body.appendChild(wy);
   document.body.appendChild(on);
   document.body.appendChild(e);
