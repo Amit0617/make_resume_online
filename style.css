@@ -1,6 +1,7 @@
 @import "templatecolours.css";
 aside {
   margin-right : 0px;
+  padding-right : 5px;
 }
 
 form {
