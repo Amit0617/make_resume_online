@@ -1,4 +1,5 @@
-#expform {
-  display : none;
-  position : fixed;
-}
+form {
+  height : 150px;
+  max-width : 100px;
+  z = 10;
+}  
