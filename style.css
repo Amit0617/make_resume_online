@@ -38,3 +38,8 @@ header {
 #link {
   display: none;
 }
+
+footer {
+  display: block;
+  position: relative;
+}
