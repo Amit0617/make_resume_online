@@ -6,11 +6,12 @@
     <link rel= stylesheet href = "style.css">
   </head>
   <body>
-    <header>
-      <H1>YOUR NAME</H1>
-      <h3>Position</h3>
-    </header>
-    <main>
+    <div class="resume">
+      <header>
+        <H1>YOUR NAME</H1>
+        <h3>Position</h3>
+      </header>
+      <main>
       
         <aside>
           <article>
@@ -65,25 +66,26 @@
           </article>
         </aside>
       </div>
-      <section>
-        <h2>Experience or Internships or Projects</h2>
-        <p>Working Year</p>
-        <p><strong>Name of the organisation</strong></p>
-        <p>Summarize Your Key responsibilities and accomplishments.
-          Where appropriate, use the language and words you find in the
-          specific job description. Be concise, targeting 3-5 key areas.</p>
-        <button onClick="openForm1()">Add Experience</button>
-        <div id="expform">
-          <form id="hidden" onsubmit="return false">
-            <input id="WY" type="text" placeholder="Working Year"><br>
-            <input id="ON" type="text" placeholder="Organisation Name"><br>
-            <input id="E" type="text" placeholder="Your collected experience"><br>
-            <button class="frm-btn" onClick="add1()">Add to resume</button><br> 
-            <button class="frm-btn" onClick="closeForm1()">Close</button><br>
-          </form>
-        </div>
-      </section>
-    </main>
+        <section>
+          <h2>Experience or Internships or Projects</h2>
+          <p>Working Year</p>
+          <p><strong>Name of the organisation</strong></p>
+          <p>Summarize Your Key responsibilities and accomplishments.
+            Where appropriate, use the language and words you find in the
+            specific job description. Be concise, targeting 3-5 key areas.</p>
+          <button onClick="openForm1()">Add Experience</button>
+          <div id="expform">
+            <form id="hidden" onsubmit="return false">
+              <input id="WY" type="text" placeholder="Working Year"><br>
+              <input id="ON" type="text" placeholder="Organisation Name"><br>
+              <input id="E" type="text" placeholder="Your collected experience"><br>
+              <button class="frm-btn" onClick="add1()">Add to resume</button><br> 
+              <button class="frm-btn" onClick="closeForm1()">Close</button><br>
+            </form>
+          </div>
+        </section>
+      </main>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
