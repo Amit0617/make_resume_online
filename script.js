@@ -54,5 +54,5 @@ function add4() {
   con.innerHTMl = document.getElementById("cont").value;
   document.body.appendChild(con);
 }
-document.getElementById("edit").contentEditable="true";
+document.getElementById("edit").contentEditable='true';
 
