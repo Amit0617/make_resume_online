@@ -34,3 +34,7 @@ header {
   max-width: 50%;
   border-block-start: solid black;
 }
+
+#link {
+  display: none;
+}
