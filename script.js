@@ -89,5 +89,5 @@ function openLinkForm() {
 
 function Delete_buttons() {
   var butt = document.querySelector("buttons");
-  butt.innerHTML = "";
+  butt.style.display = "none";
 }
