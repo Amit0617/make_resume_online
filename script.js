@@ -53,6 +53,41 @@ function add4() {
   var con = document.createElement("a");
   con.innerHTMl = document.getElementById("cont").value;
   document.body.appendChild(con);
-}
+}ad
 document.getElementById("edit").contentEditable='true';
 
+function addline() {
+  var line = document.createElement("p");
+  line.innerHTML = document.getElementById("line").value;
+  document.body.appendChild(line);
+}
+
+function adddate() {
+  var date = document.createElement("p");
+  date.innerHTML = document.getElementById("date");
+  document.body.appendChild(date);
+}
+
+function addbold() {
+  var bold = document.createElement("strong");
+  bold.innerHTML = document.getElementById("bold");
+  document.body.appendChild(bold);
+}
+
+function addlink() {
+  var a = document.createElement("a");
+  var link_text = document.createTextNode("");
+  link_text.innerHTML = document.getElementById("link_text").value;
+  a.title = link_text.innerHTML;
+  a.href = document.getElementById("link_in").value;
+  document.body.appendChild(a);
+}
+
+function openLinkForm() {
+  document.getElementById("link").style.display = "block";
+}
+
+function Delete_buttons() {
+  var butt = document.querySelector("buttons");
+  butt.innerHTML = "";
+}
