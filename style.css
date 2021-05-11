@@ -41,5 +41,6 @@ footer {
   display: block;
   position: fixed;
   z-index: 9;
-  margin: 10px;
+  margin-bottom: 10px;
+  height:100px;
 }
