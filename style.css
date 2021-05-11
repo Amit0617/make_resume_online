@@ -39,9 +39,7 @@ footer {
   padding: 2px;
   background-color: #2C974B
   display: block;
-  position: fixed;
   z-index: 9;
   margin-bottom: 10px;
-  height:200px;
   width: fit-content;
 }
