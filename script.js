@@ -55,7 +55,6 @@ function add4() {
   document.body.appendChild(con);
 }
 
-document.getElementById("edit").contentEditable='true';
 
 function addline() {
   var Line = document.createElement("p");
