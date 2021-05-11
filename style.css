@@ -42,4 +42,5 @@ footer {
   z-index: 9;
   margin-bottom: 10px;
   width: fit-content;
+  width: -moz-fit-content /*firefox*/
 }
