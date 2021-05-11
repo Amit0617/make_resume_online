@@ -25,7 +25,7 @@
             <p id="edit" contenteditable="true">Year</p>
             <p contenteditable="true"><strong>Course</strong></p>
             <p id="edit" contenteditable="true">Organisation</p>
-            <button onClick="openForm2()">Add Educational information</button>
+            <button class="hide" onClick="openForm2()">Add Educational information</button>
             <div id="eduform">
               <form onSubmit="returnFalse">
                 <input id="Y" type="text" placeholder="Year"><br>
@@ -63,7 +63,7 @@
           <p id="edit" contenteditable="true">Summarize Your Key responsibilities and accomplishments.
             Where appropriate, use the language and words you find in the
             specific job description. Be concise, targeting 3-5 key areas.</p>
-          <button onClick="openForm1()">Add Experience</button>
+          <button class="hide" onClick="openForm1()">Add Experience</button>
           <div id="expform">
             <form id="hidden" onsubmit="return false">
               <input id="WY" type="text" placeholder="Working Year"><br>
@@ -77,18 +77,18 @@
       </main>
     </div>
     <footer>
-      <input id="line" type="text" placeholder="Normal text"><button id="addline" onClick="addline()" type="button">Add text</button>
-      <input id="date" type="date"><button id="adddate" onClick="adddate()" type="button">Add Date</button>
-      <input id="bold" type="text"><button onClick="addbold()" type="button">Add Bold text</button>
+      <input id="line" type="text" placeholder="Normal text"><button id="addline" class="hide" onClick="addline()" type="button">Add text</button>
+      <input id="date" type="date"><button id="adddate" class="hide" onClick="adddate()" type="button">Add Date</button>
+      <input id="bold" type="text"><button class="hide" onClick="addbold()" type="button">Add Bold text</button>
       <div id="link">
         <form>
           <input id="link_text" type="text" placeholder="Text to be shown">
           <input id="link_in" type="text" placeholder="Link">
-          <button onClick="addlink()" type="button">Add link</button>
+          <button class="hide" onClick="addlink()" type="button">Add link</button>
         </form>
-        <button onClick="openLinkForm()" type="button">Add a link</button>
+        <button class="hide" onClick="closeLinkForm()" type="button">Add a link</button>
       </div>
-      <button onClick="Delete_buttons()" type="button">Done</button>
+      <button class="hide" onClick="Delete_buttons()" type="button">Done</button>
       <button onclick="print()" type="button">Print NOW</button>
     </footer>
     <script src="script.js"></script>
