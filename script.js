@@ -53,7 +53,8 @@ function add4() {
   var con = document.createElement("a");
   con.innerHTMl = document.getElementById("cont").value;
   document.body.appendChild(con);
-}ad
+}
+
 document.getElementById("edit").contentEditable='true';
 
 function addline() {
