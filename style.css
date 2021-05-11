@@ -35,7 +35,10 @@ header {
 }
 
 footer {
+  padding: 10px;
+  background-color: #2C974B
   display: block;
   position: fixed;
   z-index: 9;
+  
 }
