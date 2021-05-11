@@ -83,10 +83,10 @@ function addlink() {
   document.body.appendChild(a);
 }
 
-function openLinkForm() {
-  document.getElementById("link").style.display = "block";
+function closeLinkForm() {
+  document.getElementById("link").style.display = "none";
 }
 
 function Delete_buttons() {
-  document.querySelector("button").style.display = "none";
+  document.querySelector(".hide").style.display = "none";
 }
