@@ -64,13 +64,13 @@ function addline() {
 
 function adddate() {
   var Date = document.createElement("p");
-  Date.innerHTML = document.getElementById("date");
+  Date.innerHTML = document.getElementById("date").value;
   document.body.appendChild(Date);
 }
 
 function addbold() {
   var Bold = document.createElement("strong");
-  Bold.innerHTML = document.getElementById("bold");
+  Bold.innerHTML = document.getElementById("bold").value;
   document.body.appendChild(Bold);
 }
 
