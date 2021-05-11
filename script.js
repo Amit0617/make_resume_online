@@ -57,21 +57,21 @@ function add4() {
 document.getElementById("edit").contentEditable='true';
 
 function addline() {
-  var line = document.createElement("p");
-  line.innerHTML = document.getElementById("line").value;
-  document.body.appendChild(line);
+  var Line = document.createElement("p");
+  Line.innerHTML = document.getElementById("line").value;
+  document.body.appendChild(Line);
 }
 
 function adddate() {
-  var date = document.createElement("p");
-  date.innerHTML = document.getElementById("date");
-  document.body.appendChild(date);
+  var Date = document.createElement("p");
+  Date.innerHTML = document.getElementById("date");
+  document.body.appendChild(Date);
 }
 
 function addbold() {
-  var bold = document.createElement("strong");
-  bold.innerHTML = document.getElementById("bold");
-  document.body.appendChild(bold);
+  var Bold = document.createElement("strong");
+  Bold.innerHTML = document.getElementById("bold");
+  document.body.appendChild(Bold);
 }
 
 function addlink() {
