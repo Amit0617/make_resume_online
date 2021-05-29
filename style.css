@@ -22,7 +22,7 @@ h2 {
   border-bottom: solid black;
 }
 
-section {
+#section {
   max-width: 50%;
   padding: 7%;
   background-color: antiquewhite;
