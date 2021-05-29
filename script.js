@@ -88,7 +88,7 @@ function closeLinkForm() {
 }
 
 function Delete_buttons() {
-  if (document.querySelectorAll("button").style.display === "block")
+  /*if (document.querySelectorAll("button").style.display === "block")
     //&& document.querySelector(".footer").style.display === "block") 
   {
      document.querySelectorAll("button").style.display= "none";
@@ -97,5 +97,7 @@ function Delete_buttons() {
     document.querySelectorAll("button").style.display= "block";
     //document.querySelector(".footer").style.display= "block";
   }
-} 
+} */
+  document.getElementById("lastfrm").style.display = "none";
+}  
 
