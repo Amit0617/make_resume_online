@@ -90,7 +90,7 @@ function closeLinkForm() {
 function Delete_buttons() {
   var hidebtn = document.querySelectorAll("button");
   var hideftr = document.querySelector(".footer");
-  if (hidebtn.style.display === "block" && hideftr.style.display = "block") {
+  if (hidebtn.style.display === "block" && hideftr.style.display === "block") {
     hidebtn.style.display = "none";
     hideftr.style.display = "none";
   } else {
