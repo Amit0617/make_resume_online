@@ -88,16 +88,14 @@ function closeLinkForm() {
 }
 
 function Delete_buttons() {
-  var hidebtn;
-  var hideftr;
-  hidebtn = document.querySelectorAll("button");
-  hideftr = document.querySelector(".footer");
-  if (hidebtn.style.display === "block" && hideftr.style.display === "block") {
-    hidebtn.style.display = "none";
-    hideftr.style.display = "none";
+  ;
+  ;
+  if (document.querySelectorAll("button").style.display === "block" && document.querySelector(".footer").style.display === "block") {
+     document.querySelectorAll("button").style.display= "none";
+    document.querySelector(".footer").style.display= "none";
   } else {
-    hidebtn.style.display = "block";
-    hideftr.style.display = "block";
+    document.querySelectorAll("button").style.display= "block";
+    document.querySelector(".footer").style.display= "block";
   }
 } 
 
