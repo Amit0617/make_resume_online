@@ -87,7 +87,7 @@ function closeLinkForm() {
   document.getElementById("link").style.display = "none";
 }
 
-function Delete_buttons() {
+function del() {
   /*if (document.querySelectorAll("button").style.display === "block")
     //&& document.querySelector(".footer").style.display === "block") 
   {
