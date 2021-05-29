@@ -102,5 +102,5 @@ function del() {
 }  
 
 function addcolor() {
-  document.querySelector("section").style.background-color = document.getElementById("bgcol").value;
+  document.getElementById("section").style.background-color = document.getElementById("bgcol").value;
 }
