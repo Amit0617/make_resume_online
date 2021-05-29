@@ -101,3 +101,6 @@ function Delete_buttons() {
   document.getElementById("lastfrm").style.display = "none";
 }  
 
+function addcolor() {
+  document.querySelector("section").style.background-color = document.getElementById("bgcol").value;
+}
