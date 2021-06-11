@@ -18,6 +18,8 @@ button {
 form {  
   width: min-content;
   position: relative;
+  display: grid;
+  justify-content: center;
 }
 
 .side_top {
