@@ -101,6 +101,7 @@ function del() {
   }
 } */
   document.getElementById("lastfrm").style.display = "none";
+  document.querySelectorAll("button").innerHTML = "";
 }  
 
 function addcolor() {
