@@ -44,11 +44,11 @@ header {
 footer {
   border: solid 1px; 
   padding: 2px;
-  background: #2C974B;
+  margin-top: 10px;
+  background: #40d369;
   box-shadow: 5px 0 0 0;
   display: block;
   z-index: 9;
   margin-bottom: 10px;
-  width: fit-content;
-  width: -moz-fit-content /*firefox*/
+  width: 90vw;
 }
