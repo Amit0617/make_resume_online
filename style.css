@@ -39,6 +39,10 @@ h2 {
   background: antiquewhite;
 }
 
+#link {
+  background-color: #2C974B;
+}
+
 header {
   padding: 10px 0 10px 7%;
   max-width: 50%;
