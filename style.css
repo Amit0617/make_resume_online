@@ -3,6 +3,12 @@ aside {
   float : right;
 }
 
+button {
+  background-color: #2C974B;
+  color: #ffffff;
+  border-radius: 10px;
+}
+
 form {  
   width: min-content;
   position: relative;
@@ -35,9 +41,10 @@ header {
 }
 
 footer {
-  border: solid green; 
+  border: solid 1px; 
   padding: 2px;
-  background: #2C974B
+  background: #2C974B;
+  box-shadow: 5px 0 0 0;
   display: block;
   z-index: 9;
   margin-bottom: 10px;
