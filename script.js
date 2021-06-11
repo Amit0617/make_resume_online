@@ -76,11 +76,13 @@ function addbold() {
 
 function addlink() {
   var a = document.createElement("a");
-  var link_text = document.createTextNode("");
+  /*var link_text = document.createTextNode("");
   link_text.innerHTML = document.getElementById("link_text").value;
   a.title = link_text.innerHTML;
-  a.href = document.getElementById("link_in").value;
-  document.body.appendChild(a);
+  a.href = document.getElementById("link_in").value;*/
+  a.innerHTML = document.getElementById("link_text").value
+  a.setAttribute('href', document.getElementById("link_in").value)
+  document.getElementById("outlink").appendChild(a);
 }
 
 function closeLinkForm() {
