@@ -57,6 +57,5 @@ footer {
   display: block;
   z-index: 9;
   margin-bottom: 10px;
-  width: fit-content;
-  width: moz-max-content; /*firefox*/
+  width: min-content;
 }
