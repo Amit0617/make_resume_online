@@ -100,7 +100,7 @@ function del() {
     //document.querySelector(".footer").style.display= "block";
   }
 } */
-  /*document.getElementById("lastfrm").style.display = "none";*/
+  document.getElementById("lastfrm").style.display = "none";
   document.querySelectorAll("button").innerHTML = "";
 }  
 
