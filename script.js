@@ -29,9 +29,9 @@ function add1() {
   wy.innerHTMl = document.getElementById("WY").value;
   on.innerHTML = document.getElementById("ON").value;
   e.innerHTML = document.getElementById("E").value;
-  document.body.appendChild(wy);
-  document.body.appendChild(on);
-  document.body.appendChild(e);
+  document.getElementById("outexp").appendChild(wy);
+  document.getElementById("outexp").appendChild(on);
+  document.getElementById("outexp").appendChild(e);
 }
 function add2() {
   var y = document.createElement("p");
@@ -40,9 +40,9 @@ function add2() {
   y.innerHTMl = document.getElementById("Y").value;
   c.innerHTML = document.getElementById("C").value;
   o.innerHTML = document.getElementById("O").value;
-  document.body.appendChild(y);
-  document.body.appendChild(c);
-  document.body.appendChild(o);
+  document.getElementById("outedu").appendChild(y);
+  document.getElementById("outedu").appendChild(c);
+  document.getElementById("outedu").appendChild(o);
 }
 function add3() {
   var s = document.createElement("li");
@@ -102,5 +102,5 @@ function del() {
 }  
 
 function addcolor() {
-  document.getElementById("section").style.background == document.getElementById("bgcol").value;
+  document.getElementById("section").style.backgroundColor == document.getElementById("bgcol").value;
 }
