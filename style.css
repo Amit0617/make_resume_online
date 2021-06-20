@@ -40,6 +40,10 @@ input {
   padding: 6px;
 }
 
+.big {
+  padding: 6px 12px 6px 12px;
+}
+
 #section {
   max-width: 50%;
   padding: 7%;
