@@ -109,3 +109,4 @@ function del() {
 function addcolor() {
   document.getElementById("section").style.backgroundColor = document.getElementById("bgcol").value;
 }
+document.getElementByTagName("button").contentEditable="true";
