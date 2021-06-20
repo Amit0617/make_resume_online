@@ -1,3 +1,4 @@
+alert("Please hit the 'Close' button after adding information through forms and hit the 'Done' button before 'PrintNOW' ")
 function openForm1() {
   document.getElementById("expform").style.display = "block";
 }
