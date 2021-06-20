@@ -101,7 +101,10 @@ function del() {
   }
 } */
   document.getElementById("lastfrm").style.display = "none";
-  document.querySelectorAll("button").innerHTML = "";
+}  
+
+function hidebtn() {
+  document.querySelectorAll("button").style.transform = "scale(0)";
 }  
 
 function addcolor() {
