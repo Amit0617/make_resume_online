@@ -101,10 +101,12 @@ function del() {
   }
 } */
   document.getElementById("lastfrm").style.display = "none";
+  alert("Working");
 }  
 
 function hidebtn() {
   document.querySelectorAll("button").style.transform = "scale(0)";
+  
 }  
 
 function addcolor() {
