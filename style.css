@@ -74,13 +74,12 @@ footer {
 
 .showwarning {
   background: #000000;
-  colour: #ffffff;
-  
 }
 
 .warningtext {
   opacity:0;
   font-size: 5px;
+  colour: #ffffff;
 }
 
 .showwarning:hover .warningtext {
