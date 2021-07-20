@@ -72,6 +72,21 @@ footer {
   width: min-content;
 }
 
+.showwarning {
+  background: #000000;
+  colour: #ffffff;
+  
+}
+
+.warningtext {
+  opacity:0;
+  font-size: 5px;
+}
+
+.showwarning:hover .warningtext {
+  opacity:1;
+}
+
 .pulse{
   overflow:visible;
   position:relative;
