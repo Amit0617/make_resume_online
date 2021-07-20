@@ -102,8 +102,10 @@ function del() {
   }
 } */
   document.getElementById("lastfrm").style.display = "none";
-  document.getElementsByClassName("hide").style.transform = "scale(0)";
-  document.getElementsByClassName("hide").style.WebkitTransform = "scale(0)";
+  document.getElementsByClassName("hide")[0].style.display = "none"
+  document.getElementsByClassName("hide")[1].style.display = "none";
+  document.getElementsByClassName("hide")[2].style.display = "none";
+  document.getElementsByClassName("hide")[3].style.display = "none";
 }    
 
 function addcolor() {
