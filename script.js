@@ -105,7 +105,7 @@ function del() {
   document.getElementsByClassName("hide")[0].style.display = "none"
   document.getElementsByClassName("hide")[1].style.display = "none";
   document.getElementsByClassName("hide")[2].style.display = "none";
-  document.getElementsByClassName("hide")[3].style.display = "none";
+  document.getElementsByTagName("footer").style.display = "none";
 }    
 
 function addcolor() {
