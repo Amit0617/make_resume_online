@@ -102,8 +102,8 @@ function del() {
   }
 } */
   document.getElementById("lastfrm").style.display = "none";
-  document.getElementsByClassName("hide hide1 hide2 hide3 hide4").style.transform = "scale(0)";
-  document.getElementsByClassName("hide hide1 hide2 hide3 hide4").style.WebkitTransform = "scale(0)";
+  document.getElementsByClassName("hide").style.transform = "scale(0)";
+  document.getElementsByClassName("hide").style.WebkitTransform = "scale(0)";
 }    
 
 function addcolor() {
