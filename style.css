@@ -73,6 +73,7 @@ footer {
 }
 
 .showwarning {
+  display: inline-block;
   background: #000000;
   visibility: hidden;
 }
