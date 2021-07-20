@@ -98,7 +98,13 @@
         </form>
         <button onClick="closeLinkForm()" type="button">Close it</button>
       </div>
-      <button class="hide big pulse" onClick="del(); hidebtn();" type="button">Done</button>
+      <div class="showwarning"><button class="hide big pulse" onClick="del(); hidebtn();" type="button">Done</button>
+        <span class="warningtext">⚠ Make sure you have filled all the details 
+                                  and recheck if not sure because you will not
+                                  be able to add details using input forms as 
+                                  they will get removed for printing your final
+          resume.</span>
+      </div>
     </footer>
     <button onclick="print()" type="button" class="big pulse" contenteditable="false">Print NOW</button>
     <script src="script.js"></script>
