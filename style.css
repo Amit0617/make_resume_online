@@ -72,23 +72,6 @@ footer {
   width: min-content;
 }
 
-.showwarning {
-  display: inline-block;
-  background: #000000;
-  visibility: hidden;
-}
-
-.warningtext {
-  opacity:0;
-  font-size: 5px;
-  colour: #ffffff;
-}
-
-.showwarning:hover .warningtext {
-  opacity:1;
-  visibility: visible;
-}
-
 .pulse{
   overflow:visible;
   position:relative;
