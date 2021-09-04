@@ -91,7 +91,16 @@ function closeLinkForm() {
 }
 
 function del() {
- 
+  /*if (document.querySelectorAll("button").style.display === "block")
+    //&& document.querySelector(".footer").style.display === "block") 
+  {
+     document.querySelectorAll("button").style.display= "none";
+    //document.querySelector(".footer").style.display= "none";
+  } else {
+    document.querySelectorAll("button").style.display= "block";
+    //document.querySelector(".footer").style.display= "block";
+  }
+} */
   document.getElementById("lastfrm").style.display = "none";
   document.getElementsByClassName("hide")[0].style.display = "none"
   document.getElementsByClassName("hide")[1].style.display = "none";
