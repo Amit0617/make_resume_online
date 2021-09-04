@@ -9,9 +9,10 @@
     
     <title>Your Impactful Resume</title>
     <link rel= stylesheet href = "style.css">
+    <link rel=stylesheet href = "print.css">
   </head>
   <body contenteditable="true">
-    <div id="printable">
+    <div class="print">
     <div class="side_top">
       <p>State Your Career Goals and show How
         they align with Job description you are
@@ -107,7 +108,7 @@
                    resume."><button class="hide big pulse" onClick="del(); hidebtn();" type="button">Done, I have added all the details</button></abbr>
      
     </footer>
-    <button onclick="print_resume()" type="button" class="big pulse" contenteditable="false">Print NOW</button>
+    <button onclick="window.print()" type="button" class="big pulse" contenteditable="false">Print NOW</button>
     <script src="script.js"></script>
   </body>
 </html>
