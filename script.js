@@ -114,6 +114,6 @@ function addcolor() {
 document.getElementsByTagName("button").contentEditable="false";
 
 function print_resume() {
-  document.getElementById("printable").print();
+  document.getElementById("printable").window.print();
 
 }
