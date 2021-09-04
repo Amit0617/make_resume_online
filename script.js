@@ -112,8 +112,3 @@ function addcolor() {
   document.getElementById("section").style.backgroundColor = document.getElementById("bgcol").value;
 }
 document.getElementsByTagName("button").contentEditable="false";
-
-function print_resume() {
-  document.getElementById("printable").window.print();
-
-}
